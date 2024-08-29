@@ -53,31 +53,7 @@ const questions = [
     }
 ];
 
-const README = (data) => {
-    return `# ${data.title}
-    ${renderLicenseBadge(data.license)}
-    ## Description
-    ${data.description}
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contribution](#contribution)
-    * [Tests](#tests)
-    ${renderLicenseLink(data.license)}
-    * [Questions](#questions)
-    ## Installation
-    ${data.installation}
-    ## Usage
-    ${data.usage}
-    ## Contribution
-    ${data.contribution}
-    ## Tests
-    ${data.test}
-    ${renderLicenseSection(data.license)}
-    ## Questions
-    If you have any questions, please feel free to contact me at ${data.email}.
-    You can also find me on GitHub at [${data.github}]`;
-}
+
 
 
 // TODO: Create a function to write README file
@@ -91,6 +67,7 @@ function writeToFile(fileName, data
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
+            console.log(generateMarkdown(data));
             writeToFile('README.md', generateMarkdown(data));
         });
 }
