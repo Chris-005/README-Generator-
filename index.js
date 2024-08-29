@@ -53,14 +53,6 @@ const questions = [
     }
 ];
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribution](#contribution)
-* [Tests](#tests)
-* [Questions](#questions)
-* [License](#license)
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data
 ) {
