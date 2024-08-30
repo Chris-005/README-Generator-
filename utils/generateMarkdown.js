@@ -36,41 +36,42 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
-    ![License Badge](https://img.shields.io/badge/License-${data.license}&message=License&color=blue)
+![License Badge](https://img.shields.io/badge/License-${data.license}&message=License&color=blue)
 
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contribution](#contribution)
-    * [Test](#test)
-    * [License](#license)
-    * [Questions](#questions)
-    * [GitHub](#github)
-    * [Email](#email)
+# Table of Contents:
 
-    ## Description
-    ${data.description}
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contribution](#contribution)
+5. [Test](#test)
+6. [License](#license)
+7. [Questions](#questions)
+8. [GitHub](#github)
+9. [Email](#email)
 
-    ## Installation
-    ${data.installation}
+## Description:
+${data.description}
 
-    ## Usage
-    ${data.usage}
+## Installation:
+${data.installation}
 
-    ## Contribution
-    ${data.contribution}
+## Usage:
+${data.usage}
 
-    ## Test
-    ${data.test}
+## Contribution:
+${data.contribution}
 
-    ## License
-- This project is licensed under the ${data.license} license.
+## Test:
+${data.test}
 
-    ## Questions
+## License:
+ This project is licensed under the ${data.license} license.
 
-    If you have any questions, please feel free to contact me at ${data.email}.
-    You can also find me on GitHub at [https://github.com/${data.github}]`;
+## Questions
+
+If you have any questions, please feel free to contact me at ${data.email}.
+You can also find me on GitHub at [https://github.com/${data.github}]`;
 }
 
 export default generateMarkdown;
