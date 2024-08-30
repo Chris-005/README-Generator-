@@ -1,4 +1,4 @@
-# aa
+# A readme generator
 ![License Badge](https://img.shields.io/badge/License-MIT&message=License&color=blue)
 
 # Table of Contents:
@@ -14,24 +14,24 @@
 9. [Email](#email)
 
 ## Description:
-aa
+Creates a readme off user inputs
 
 ## Installation:
-aa
+npm i inquirer and npm i fs
 
 ## Usage:
-aa
+To help user create a readme easily by answering prompted questions
 
 ## Contribution:
-aa
+Add whoever has contributed to project
 
 ## Test:
-aa
+N/A
 
 ## License:
  This project is licensed under the MIT license.
 
 ## Questions
 
-If you have any questions, please feel free to contact me at .
-You can also find me on GitHub at [https://github.com/aa]
+If you have any questions, please feel free to contact me at cguzman199@gmail.com.
+You can also find me on GitHub at [https://github.com/Chris-005]
