@@ -33,9 +33,6 @@ N/A
 
  ## Images
 ![image](https://github.com/user-attachments/assets/32ef90fc-cb60-460d-bb6b-87b730fb1dc4)
-![image](https://github.com/user-attachments/assets/80708489-4c59-4fcf-80fe-3440dac1f21a)
-![image](https://github.com/user-attachments/assets/3384075a-8b51-491c-bc25-67752f1bde97)
-
 
 ## Questions
 
